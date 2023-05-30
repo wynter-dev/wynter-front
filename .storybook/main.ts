@@ -13,6 +13,9 @@ const config: StorybookConfig = {
   typescript: {
     check: true,
   },
+  core: {
+    builder: '@storybook/builder-vite',
+  },
   docs: {
     autodocs: "tag",
   },
