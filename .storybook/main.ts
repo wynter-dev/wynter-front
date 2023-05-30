@@ -10,6 +10,9 @@ const config: StorybookConfig = {
     name: "@storybook/react-vite",
     options: {},
   },
+  typescript: {
+    check: true,
+  },
   docs: {
     autodocs: "tag",
   },
